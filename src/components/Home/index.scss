@@ -12,12 +12,12 @@
     font-size: 56px;
     line-height: 53px;
     margin: 0;
-    font-family: 'Coolvetica', cursive;
+    font-family: "Coolvetica", cursive;
     font-weight: 400;
 
     &:before {
-      content: '<h1>';
-      font-family: 'La Belle Aurore', cursive;
+      content: "<h1>";
+      font-family: "La Belle Aurore", cursive;
       color: #f8613bdd;
       font-size: 18px;
       position: absolute;
@@ -27,8 +27,8 @@
     }
 
     &:after {
-      content: '</h1>';
-      font-family: 'La Belle Aurore', cursive;
+      content: "</h1>";
+      font-family: "La Belle Aurore", cursive;
       color: #f8613bdd;
       font-size: 18px;
       position: absolute;

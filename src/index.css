@@ -1,10 +1,28 @@
 html {
   font-size: 62.5%;
 }
-
+.profile-picture {
+  background-image: url("./assets/images/background-portrait.png");
+  background-size: contain, cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 100%;
+  width: auto;
+  min-height: 100%;
+  height: auto;
+  /* position: absolute; */
+  margin: 12 0 0 12;
+  overflow: scroll;
+  /* border-top: 2px solid #0f0f00;
+    border-bottom: 2px solid #0f0f00;
+    border-left: 2px solid #0f0f00;
+    border-right: 2px solid #0f0f00; */
+  border-radius: 10px solid #0f0f00;
+  z-index: -1;
+}
 body {
   margin: 0;
-  font: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
+  font: 300 11px/1.4 "Helvetica Neue", "sans-serif";
   color: #444;
   background: #022c43;
   overflow: hidden;

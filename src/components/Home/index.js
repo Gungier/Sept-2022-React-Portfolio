@@ -1,49 +1,50 @@
-import React, { useEffect, useState } from 'react'
-import './index.scss'
-import LogoTitle from '../../assets/images/figmaG.png'
-import { Link } from 'react-router-dom'
-import AnimatedLetters from '../AnimateLetters'
-import Logo from './Logo'
+import React, { useEffect, useState } from "react";
+import "./index.scss";
+import LogoTitle from "../../assets/images/figmaG.png";
+import { Link } from "react-router-dom";
+import AnimatedLetters from "../AnimateLetters";
+import Logo from "./Logo";
+import BackgroundImage from "../../assets/images/background-portrait.png";
 
 const Home = () => {
-  const [letterClass, setLetterClass] = useState('text-animate')
+  const [letterClass, setLetterClass] = useState("text-animate");
   const nameArray = [
-    'a',
-    'b',
-    'r',
-    'i',
-    'e',
-    'l',
-    ' ',
-    'U',
-    'n',
-    'g',
-    'i',
-    'e',
-    'r',
-  ]
+    "a",
+    "b",
+    "r",
+    "i",
+    "e",
+    "l",
+    " ",
+    "U",
+    "n",
+    "g",
+    "i",
+    "e",
+    "r",
+  ];
 
   const jobArray = [
-    'w',
-    'e',
-    'b',
-    ' ',
-    'd',
-    'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
-    'e',
-    'r',
-  ]
+    "w",
+    "e",
+    "b",
+    " ",
+    "d",
+    "e",
+    "v",
+    "e",
+    "l",
+    "o",
+    "p",
+    "e",
+    "r",
+  ];
 
   useEffect(() => {
     setTimeout(() => {
-      setLetterClass('text-animate-hover')
-    }, 4000)
-  }, [])
+      setLetterClass("text-animate-hover");
+    }, 4000);
+  }, []);
 
   return (
     <div className="container home-page">
@@ -73,8 +74,8 @@ const Home = () => {
           CONTACT ME
         </Link>
       </div>
-      <Logo />
+      {/* <Logo /> */}
     </div>
-  )
-}
-export default Home
+  );
+};
+export default Home;
